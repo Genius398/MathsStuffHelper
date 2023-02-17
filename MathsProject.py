@@ -11,10 +11,10 @@ QuestionArray = []
 for i in range(QuestionsNumber):
     # Generate two random numbers for the base and exponent
     base1 = random.randint(LowestNumberRange, HighestNumberRange)
-    exponent1 = random.randint(1, 9)
+    exponent1 = random.randint(1, 5)
 
     base2 = random.randint(LowestNumberRange, HighestNumberRange)
-    exponent2 = random.randint(1, 9)    
+    exponent2 = random.randint(1, 5)    
 
     # Generate a random operator
     operators = ["+", "-", "*", "/"]
